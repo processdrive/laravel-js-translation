@@ -1,0 +1,29 @@
+{
+    "name": "process-drive/laravel-js-translation",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Santhosh A",
+            "email": "santhosh@processdrive.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "ProcessDrive\\LaravelJSTranslation\\": "src/"
+        }
+    },
+    "autoload-dev": {},
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ProcessDrive\\LaravelJSTranslation\\TranslateServiceProvider"
+            ]
+        }
+    }
+}
