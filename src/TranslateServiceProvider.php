@@ -3,7 +3,7 @@
 namespace ProcessDrive\LaravelJSTranslation;
 
 use Illuminate\Support\ServiceProvider;
-use Translate\Processdrivepackage\ConvertTransJsonCommand;
+use ProcessDrive\LaravelJSTranslation\ConvertTransJsonCommand;
 
 
 class TranslateServiceProvider extends ServiceProvider
